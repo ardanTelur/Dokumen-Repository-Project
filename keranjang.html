@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang Belanja - Rida Frozen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Keranjang Belanja</h1>
+        <p>Cek produk yang Anda tambahkan ke keranjang.</p>
+    </header>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="katalog.html">Katalog Produk</a>
+        <a href="keranjang.html">Keranjang Belanja</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+    <section class="cart">
+        <h2>Daftar Produk</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produk</th>
+                    <th>Harga</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Isi keranjang akan ditambahkan dengan JavaScript -->
+            </tbody>
+        </table>
+        <p id="total-price"></p>
+        <div id="checkout-container">
+            <button id="checkout-button">Lanjutkan ke Pembayaran</button>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Rida Frozen. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
+
